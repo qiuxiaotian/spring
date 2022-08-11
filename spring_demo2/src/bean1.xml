@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stu1" class="com.allsheng.spring5.beans.Stu">
+        <property name="name" value="cht"></property>
+        <property name="no" value="1"></property>
+    </bean>
+    <bean id="stu2" class="com.allsheng.spring5.beans.Stu">
+        <property name="name" value="qmj"></property>
+        <property name="no" value="2"></property>
+    </bean>
+    <bean id="stu3" class="com.allsheng.spring5.beans.Stu">
+        <property name="name" value="xiaoming"></property>
+        <property name="no" value="3"></property>
+    </bean>
+
+    <!--数组的依赖注入-->
+    <bean id="arrayStu" class="com.allsheng.spring5.beans.ArrayBean">
+        <property name="stus">
+            <array>
+                <bean id="stu1" class="com.allsheng.spring5.beans.Stu">
+                    <property name="name" value="qmj"></property>
+                    <property name="no" value="2"></property>
+                </bean>
+                <bean id="stu2" class="com.allsheng.spring5.beans.Stu">
+                    <property name="name" value="xiaoming"></property>
+                    <property name="no" value="3"></property>
+                </bean>
+            </array>
+        </property>
+    </bean>
+
+    <!--List集合的依赖注入-->
+    <bean id="listStu" class="com.allsheng.spring5.beans.ListBean">
+        <property name="stuList">
+            <list>
+                <bean id="stu1" class="com.allsheng.spring5.beans.Stu">
+                    <property name="name" value="qmj"></property>
+                    <property name="no" value="2"></property>
+                </bean>
+                <bean id="stu2" class="com.allsheng.spring5.beans.Stu">
+                    <property name="name" value="xiaoming"></property>
+                    <property name="no" value="3"></property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <!--map集合的依赖注入-->
+    <bean id="mapStu" class="com.allsheng.spring5.beans.MapBean">
+        <property name="stuMap">
+            <map>
+                <entry key="CHT" value-ref="stu1"></entry>
+                <entry key="QMJ" value-ref="stu2"></entry>
+                <entry key="XIAOMING" value-ref="stu3"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <!--set集合依赖注入-->
+    <bean id="setStu" class="com.allsheng.spring5.beans.SetBean">
+        <property name="stuSet">
+            <set>
+                <bean id="stu1" class="com.allsheng.spring5.beans.Stu">
+                    <property name="name" value="qmj"></property>
+                    <property name="no" value="2"></property>
+                </bean>
+                <bean id="stu2" class="com.allsheng.spring5.beans.Stu">
+                    <property name="name" value="xiaoming"></property>
+                    <property name="no" value="3"></property>
+                </bean>
+            </set>
+        </property>
+    </bean>
+
+
+</beans>
