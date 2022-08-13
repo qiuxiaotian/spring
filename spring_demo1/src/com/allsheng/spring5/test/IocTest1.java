@@ -16,7 +16,7 @@ public class IocTest1 {
     public void test1() {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("beans1.xml");
-        Dept dept = context.getBean("dept",Dept.class);
+        Dept dept = context.getBean("dept", Dept.class);
         dept.add();
     }
 
@@ -25,5 +25,17 @@ public class IocTest1 {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans1.xml");
         DeptService deptService = context.getBean("deptService", DeptService.class);
         deptService.addService();
+    }
+
+    // bean的自动装配
+    @Test
+    public void test3() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans1.xml");
+        // 根据属性名自动注入
+        Dept dept1 = context.getBean("dept1", Dept.class);
+        // 根据属性类型自动注入
+        Dept dept3 = context.getBean("dept3", Dept.class);
+        System.out.println(dept1);
+        System.out.println(dept3);
     }
 }

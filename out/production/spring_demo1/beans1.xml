@@ -8,12 +8,14 @@
         <property name="dno" value="1"></property>
         <property name="emp" ref="emp"></property>
     </bean>
+    <!--外部bean注入-->
     <bean id="emp" class="com.allsheng.spring5.beans.Emp">
-        <property name="name" value="陈昊天"></property>
+        <property name="name" value="陈昊天111"></property>
         <property name="no" value="1"></property>
     </bean>
 
-    <bean id="dept" class="com.allsheng.spring5.beans.Dept">
+    <!--内部bean注入-->
+    <bean id="dept2" class="com.allsheng.spring5.beans.Dept">
         <property name="dname" value="销售部"></property>
         <property name="dno" value="2"></property>
         <property name="emp" >
@@ -28,4 +30,15 @@
     <bean id="deptService" class="com.allsheng.spring5.service.DeptService">
         <property name="deptDao" ref="deptDao"></property>
     </bean>
+
+    <!--
+        自动装配bean
+        id要与自动装配的bean中的属性名一致
+    -->
+    <bean id="dept1" class="com.allsheng.spring5.beans.Dept" autowire="byName"></bean>
+    <!--
+        自动装配bean
+        根据属性类型自动注入
+    -->
+    <bean id="dept3" class="com.allsheng.spring5.beans.Dept" autowire="byType"></bean>
 </beans>
