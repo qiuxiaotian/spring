@@ -5,59 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74dd5f68-fe92-44c1-9833-fae9c62e10c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/druid-1.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-aop-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-beans-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-context-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-core-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spring-expression-5.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/spring_demo3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/src/bean1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/src/bean2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/src/com/allsheng/spring5/bean/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/src/com/allsheng/spring5/bean/MyBeanPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/src/com/allsheng/spring5/bean/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/src/com/allsheng/spring5/test/InitMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo3/src/com/allsheng/spring5/test/SpringScopeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo4/spring_demo4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo4/src/bean1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo4/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/spring_demo5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/bean1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/bean2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/bean/MyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/controller/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/dao/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/service/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo5/src/com/allsheng/spring5/springannotation/SpringAnnotationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_demo1/beans1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_demo1/beans1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/beans/Dept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/beans/Dept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/beans/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/beans/Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/dao/DeptDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/dao/DeptDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/service/DeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/service/DeptService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/test/IocTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_demo1/com/allsheng/spring5/test/IocTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo1/spring_demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo1/spring_demo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo1/src/beans1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo1/src/beans1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo1/src/com/allsheng/spring5/test/IocTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo1/src/com/allsheng/spring5/test/IocTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo2/spring_demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo2/spring_demo2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,18 +17,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
-        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -97,24 +41,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/java-project/spring/cht_git/spring/libs",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15136719",
-    "project.structure.side.proportion": "0.3816092",
-    "spring.configuration.checksum": "a9f231b3a011b658eb44d48dd62d2c46"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path" value="F:\Java\study_project\spring\libs" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.allsheng.spring5.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Java\study_project\spring\spring_demo1\libs" />
     </key>
@@ -122,9 +68,9 @@
       <recent name="F:\Java\study_project\spring\spring_demo1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringAnnotationTest.test3">
-    <configuration name="InitMethodTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_demo3" />
+  <component name="RunManager" selected="JUnit.CollectionTest.test4">
+    <configuration name="CollectionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_demo2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.allsheng.spring5.test.*" />
@@ -132,14 +78,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.allsheng.spring5.test" />
-      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.test.InitMethodTest" />
+      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.test.CollectionTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IocTest1.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allsheng.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allsheng.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.test.CollectionTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allsheng.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allsheng.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.test.CollectionTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allsheng.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allsheng.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.test.CollectionTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_demo1" />
       <extension name="coverage">
         <pattern>
@@ -149,55 +143,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.allsheng.spring5.test" />
       <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.test.IocTest1" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringAnnotationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allsheng.spring5.springannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.allsheng.spring5.springannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.springannotation.SpringAnnotationTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringAnnotationTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allsheng.spring5.springannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.allsheng.spring5.springannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.springannotation.SpringAnnotationTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringAnnotationTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_demo5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allsheng.spring5.springannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.allsheng.spring5.springannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.springannotation.SpringAnnotationTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringAnnotationTest.test3" />
-        <item itemvalue="JUnit.SpringAnnotationTest.test2" />
-        <item itemvalue="JUnit.SpringAnnotationTest.test" />
-        <item itemvalue="JUnit.IocTest1.test3" />
-        <item itemvalue="JUnit.InitMethodTest.test1" />
+        <item itemvalue="JUnit.CollectionTest.test4" />
+        <item itemvalue="JUnit.CollectionTest.test3" />
+        <item itemvalue="JUnit.CollectionTest.test2" />
+        <item itemvalue="JUnit.CollectionTest.test1" />
+        <item itemvalue="JUnit.IocTest1.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -224,23 +170,11 @@
       <workItem from="1660144502750" duration="80000" />
       <workItem from="1660144736797" duration="23000" />
       <workItem from="1660220871094" duration="5926000" />
-      <workItem from="1660388445715" duration="11432000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
