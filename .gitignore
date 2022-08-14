@@ -1,7 +1,8 @@
 .classpath
 .project
 .settings
-.idea
+.idea/
 .metadata
 *.iml
 *.ipr
+out/
