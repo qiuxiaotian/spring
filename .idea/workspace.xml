@@ -67,7 +67,7 @@
       <recent name="F:\Java\study_project\spring\spring_demo1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionTest.test4">
+  <component name="RunManager" selected="JUnit.SpringAnnotationTest.test3">
     <configuration name="CollectionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_demo2" />
       <extension name="coverage">
@@ -132,17 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IocTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_demo1" />
+    <configuration name="SpringAnnotationTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_demo5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.allsheng.spring5.test.*" />
+          <option name="PATTERN" value="com.allsheng.spring5.springannotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.allsheng.spring5.test" />
-      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.test.IocTest1" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.allsheng.spring5.springannotation" />
+      <option name="MAIN_CLASS_NAME" value="com.allsheng.spring5.springannotation.SpringAnnotationTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringAnnotationTest.test3" />
         <item itemvalue="JUnit.CollectionTest.test4" />
         <item itemvalue="JUnit.CollectionTest.test3" />
         <item itemvalue="JUnit.CollectionTest.test2" />
         <item itemvalue="JUnit.CollectionTest.test1" />
-        <item itemvalue="JUnit.IocTest1.test1" />
       </list>
     </recent_temporary>
   </component>
