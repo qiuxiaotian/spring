@@ -17,6 +17,9 @@ public class UserController {
     private UserService userService;
 
     public void userAdd() {
+
+
+        System.out.println("aaa");
         System.out.println("userAdd()...");
         userService.add();
     }
